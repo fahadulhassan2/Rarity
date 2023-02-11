@@ -1,0 +1,175 @@
+body
+{
+background-color: #141424 !important;
+font-family: 'Montserrat', sans-serif !important;
+}
+#pop {
+width: 400px;
+height: auto;
+background: linear-gradient(142.11deg, #16162Ca8 -1.83%, #33335C75 47.74%, #16162C 105.11%);
+border: 2px solid rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(108.731px);
+border-radius: 24px;
+margin: 0 auto;
+margin-top: 4rem;
+}
+#nav {
+height: 80px;
+background-color: rgb(51 51 92 / 50%) !important;
+border-radius: 25px 25px 0 0;
+}
+a{
+  text-decoration: none !important;
+  color: #7F73A5 !important; 
+  padding:  8px 20px;
+  font-size: 14px !important;
+  font-weight: 600!important; 
+  border-radius: 5px;
+}
+
+a:active{
+color: #ffffff !important;
+  background-color: #7836EA !important;
+  padding:  8px 20px;
+  border-radius: 5px;
+  
+
+}
+a:hover {
+color: #ffffff !important;
+  background-color: #7836EA !important;
+  padding:  8px 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.rarityshadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h1{
+font-weight: 700 !important;
+font-size: 36px !important;
+font-style: normal !important;
+line-height: 28px !important;
+
+}
+input{
+  background: rgba(224, 224, 255, 0.09) !important;
+mix-blend-mode: normal;
+border-radius: 10px !important;
+border: none !important;
+box-shadow: none !important;
+color: #ffffff !important;
+font-weight: 500 !important;
+font-style: normal !important;
+font-size:  16px !important;
+Line-height: 28px !important;
+
+}
+
+.gradentbtn{
+    background: linear-gradient(135deg, #FF00AA 0%, #9C42F5 50.18%, #5D2DE1 100%)!important;
+border-radius: 10px !important;
+border: none !important;
+box-shadow: none !important;
+font-weight: 700 !important;
+font-size: 16px !important;
+height: 50px;
+width: 240px;
+font-style: normal !important;
+}
+.gradentbtnbig{
+  background: linear-gradient(135deg, #FF00AA 0%, #9C42F5 50.18%, #5D2DE1 100%)!important;
+border-radius: 10px !important;
+border: none !important;
+font-weight: 700 !important;
+font-size: 16px !important;
+height: 50px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+font-style: normal !important;
+}
+.gradentbtnshadow{
+    background: linear-gradient(135deg, rgb(255, 0, 170,0.3) 0%, rgb(156, 66, 245,0.3) 50.18%, rgb(93, 45, 225, 0.3) 100%)
+    !important;
+border-radius: 10px !important;
+border: none !important;
+box-shadow: none !important;
+font-weight: 700 !important;
+width: 240px;
+font-size: 16px !important;
+height: 50px;
+font-style: normal !important;
+}
+.purpleborderbtn
+{
+    background: transparent !important;
+    border: 2px solid #7836EA !important;
+    border-radius: 10px !important;
+box-shadow: none !important;
+font-weight: 700 !important;
+font-size: 16px !important;
+width: 140px;
+height: 50px;
+font-style: normal !important;
+}
+
+.copyrightText{
+    color: rgba(189, 189, 197, 1) !important;
+    font-Size: 13px !important;
+    Line-height: 16px!important;
+
+}
+
+
+/* toggle */
+
+.toggle-control {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.toggle-control input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+
+}
+.toggle-control input:checked ~ .control {
+  background: linear-gradient(180deg, #19192F 0%, #2A2A4A 100%);
+ 
+}
+.toggle-control input:checked ~ .control:after {
+  background: rgba(233, 15, 187, 1);
+
+  left: 45px;
+}
+
+.toggle-control .control {
+  position: absolute;
+  top: 0;
+  left: -38px;
+  height: 40px;
+  width: 80px;
+  border-radius: 25px;
+  background: linear-gradient(180deg, #19192F 0%, #2A2A4A 100%);
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 0 inset, rgb(52 52 95) 0px -1px, rgb(0 0 0 / 15%) -1px 1px;
+  transition: background-color 0.15s ease-in;
+}
+
+.toggle-control .control:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  background: rgba(127, 115, 165, 1);
+  transition: left 0.15s ease-in;
+}
